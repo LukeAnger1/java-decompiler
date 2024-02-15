@@ -10,7 +10,7 @@ This will decompile a jar file into class files and java files while preserving 
 # command 2: This commmand will go through the folder and its subfolders and change the class files into java files
 
 
-# TODO: currently I only have use of keeping all the java files in the same location as class files, may consider changing to have option to put the java files into new project
+# TODO: currently I only have use of keeping all the java files in the same location as class files, may consider changing to have option to put the java files into new project, or a new location in general, also input file location rather than file name
 # TODO: There is also an issue with class files with special characters like $, have to fix
 
 # Special thanks to

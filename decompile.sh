@@ -12,18 +12,16 @@ sudo apt install unzip -y
 # notification of the name
 echo "Using $name as the name of the jar file"
 
+# making of directory for the extracted files
+echo "making directory to put the extracted files"
+mkdir extracted
+
 # unziping the jar file
 echo "unziping $name"
-unzip "$name"
+unzip "$name" -d extracted
 
-# Check if the directory exists
-if [ -d "$name" ]; then
-    # Change to the directory
-    cd "$name"
-    echo "Changed to directory: $name"
-else
-    echo "Directory $name does not exist."
-fi
+# entering extracted directory
+cd extracted
 
 # this command once in the directory will add the java files in the same folder or sub folder as the class folders
 # TODO: fix this command to work with special characters like $
