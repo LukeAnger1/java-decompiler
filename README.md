@@ -16,5 +16,5 @@ Please enter the full name of the jar file (the jar file has to be in the same d
 helloworld.jar
 ## Acknowledgements
 
- - [jar test file](git@github.com:jarirajari/helloworld.git://awesomeopensource.com/project/elangosundar/awesome-README-templates)
+ - [jar test file](https://github.com/jarirajari/helloworld)
 
